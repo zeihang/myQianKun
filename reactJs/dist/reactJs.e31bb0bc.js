@@ -26596,7 +26596,7 @@ function _mount() {
           case 0:
             console.log('props from main framework', props);
 
-            _reactDom.default.render(_react.default.createElement(_App.default, null), document.getElementById('reactRoot'));
+            _reactDom.default.render(_react.default.createElement(_App.default, null), document.getElementById('reactJs'));
 
           case 2:
           case "end":
@@ -26620,9 +26620,11 @@ function _unmount() {
       while (1) {
         switch (_context3.prev = _context3.next) {
           case 0:
-            _reactDom.default.unmountComponentAtNode(document.getElementById('reactRoot'));
+            console.log('react app unmount');
 
-          case 1:
+            _reactDom.default.unmountComponentAtNode(document.getElementById('reactJs'));
+
+          case 2:
           case "end":
             return _context3.stop();
         }
@@ -26659,7 +26661,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59370" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54110" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -26834,5 +26836,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["node_modules/parcel-bundler/src/builtins/hmr-runtime.js","index.js"], null)
+},{}]},{},["node_modules/parcel-bundler/src/builtins/hmr-runtime.js","index.js"], "reactJs")
 //# sourceMappingURL=/reactJs.e31bb0bc.js.map

@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "parcel index.html --port 7100",
+    "start": "parcel serve index.html --global reactJs --port 7100",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {

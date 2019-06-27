@@ -20,6 +20,7 @@ export default function Framework(props) {
                 <nav>
                     <ol>
                         <li><a href="javascript: void 0" onClick={() => goto('reactJs', '/reactJs')}>reactJs</a></li>
+                        <li><a href="javascript: void 0" onClick={() => goto('reactapp', '/reactapp')}>reactapp</a></li>
                         <li><a href="javascript: void 0" onClick={() => goto('reactTs', '/reactTs')}>reactTs</a></li>
                     </ol>
                 </nav>
